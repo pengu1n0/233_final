@@ -18,7 +18,7 @@ int main()
 	}
 	for(i=0;i<=10000;i++)
 	{
-		if(max<A[i])
+		if(max==A[i])
 		{
 			printf("%d",i);
 		}
